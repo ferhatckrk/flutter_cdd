@@ -40,7 +40,8 @@ class DailyNews extends StatelessWidget {
               return ListTile(
                 title: Text(
                   state.articles![index].title ?? "as",
-                  style: TextStyle(color: Color.fromARGB(255, 54, 36, 36)),
+                  style:
+                      const TextStyle(color: Color.fromARGB(255, 54, 36, 36)),
                 ),
               );
             },

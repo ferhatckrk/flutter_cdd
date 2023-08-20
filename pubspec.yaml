@@ -1,0 +1,57 @@
+name: flutter_tdd_news
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+ 
+
+  #state managment 
+  flutter_bloc: ^8.1.2
+
+  #comparing dart object 
+  equatable:  
+   
+  #service locator
+  get_it: ^7.6.0 
+
+  #date format
+  intl:  
+
+  #database 
+  floor:  
+  #make request the api
+  retrofit:  
+
+  #Hooks
+  flutter_hooks:  
+   
+  #cached images 
+  cached_network_image:  
+  dio: ^4.0.6
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  retrofit_generator:  
+  floor_generator:  
+  build_runner:  
+
+   
+
+flutter:
+  uses-material-design: true
